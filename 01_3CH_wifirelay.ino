@@ -28,16 +28,16 @@
  #include "webf/icomoon.woff.gz.h"
 
 
-#define APP_KEY           "f5e8253c-44f0-49c8-8bf3-811fd2b261d6"      // Should look like "de0bxxxx-1x3x-4x3x-ax2x-5dabxxxxxxxx"
-#define APP_SECRET        "98bcb956-b567-469f-b13b-aa090fc51907-73e719dc-97fb-425e-83a8-51f1a5911d8c"   // Should look like "5f36xxxx-x3x7-4x3x-xexe-e86724a9xxxx-4c4axxxx-3x3x-x5xe-x9x3-333d65xxxxxx"
-#define SWITCH_ID_1       "6059edad7fb0e67d45b84bf2"    // Should look like "5dc1564130xxxxxxxxxxxxxx"
-#define SWITCH_ID_2       "6059f89f41a7a97d3ef4e55c"    // Should look like "5dc1564130xxxxxxxxxxxxxx"
-#define SWITCH_ID_3       "6059f8ae7fb0e67d45b84c2a"    // Should look like "5dc1564130xxxxxxxxxxxxxx"
+#define APP_KEY           "de0bxxxx-1x3x-4x3x-ax2x-5dabxxxxxxxx"      // Should look like "de0bxxxx-1x3x-4x3x-ax2x-5dabxxxxxxxx"
+#define APP_SECRET        "5f36xxxx-x3x7-4x3x-xexe-e86724a9xxxx-4c4axxxx-3x3x-x5xe-x9x3-333d65xxxxxx"   // Should look like "5f36xxxx-x3x7-4x3x-xexe-e86724a9xxxx-4c4axxxx-3x3x-x5xe-x9x3-333d65xxxxxx"
+#define SWITCH_ID_1       "5dc1564130xxxxxxxxxxxxxx"    // Should look like "5dc1564130xxxxxxxxxxxxxx"
+#define SWITCH_ID_2       "5dc1564130xxxxxxxxxxxxxx"    // Should look like "5dc1564130xxxxxxxxxxxxxx"
+#define SWITCH_ID_3       "5dc1564130xxxxxxxxxxxxxx"    // Should look like "5dc1564130xxxxxxxxxxxxxx"
 //#define SWITCH_ID_4       "YOUR-DEVICE-ID"    // Should look like "5dc1564130xxxxxxxxxxxxxx"
 
 const char* hostName = "Ediys";
-const char* ssid = "dlink-7000"; 
-const char* wifipass = "oigrh29733";
+const char* ssid = "SSID"; 
+const char* wifipass = "Password";
 
 const int buttonPin0 = 14;     // the number of the pushbutton pin D5, D6, D7 (GPIO14,12,13)
 const int buttonPin1 = 12;
